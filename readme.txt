@@ -1,0 +1,28 @@
+=== Spaces Media Collection CPT ===
+Contributors: neverything
+Tags: custom post type, post type, media, block template
+Requires at least: 5.3
+Tested up to: 5.3
+Stable tag: 0.1.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+This plugin provides a post type for a collection of regular posts and includes a block template for it.
+
+== Description ==
+
+tbd
+
+== Installation ==
+
+This section describes how to install the plugin and get it working.
+
+1. Upload `spaces-media-collection-post-type/` to the `/wp-content/plugins/` directory
+1. Activate the plugin through the 'Plugins' menu in WordPress
+
+== Changelog ==
+
+= 0.1.0 =
+* Initial version, still work in progress and not suitable for production.s
+
+

@@ -1,0 +1,20 @@
+{
+  "name": "dol-lab/spaces-media-collection-post-type",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Silvan Hagen",
+      "email": "silvan@silvanhagen.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "files": [
+      "inc/namespace.php"
+    ]
+  }
+}
