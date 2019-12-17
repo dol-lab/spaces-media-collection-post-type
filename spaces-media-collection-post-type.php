@@ -12,7 +12,7 @@
  * @package         Spaces_Media_Collection_Post_Type
  */
 
-namespace Spaces\Spaces_Spaces_Media_Collection;
+namespace Spaces\Spaces_Media_Collection;
 
 if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
 	include __DIR__ . '/vendor/autoload.php';
