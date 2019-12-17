@@ -3,7 +3,7 @@
 **Tags:** custom post type, post type, media, block template  
 **Requires at least:** 5.3  
 **Tested up to:** 5.3  
-**Stable tag:** 0.1.0  
+**Stable tag:** 0.2.0  
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -22,7 +22,12 @@ This section describes how to install the plugin and get it working.
 
 ## Changelog ##
 
+### 0.2.0 ###
+* Added custom post type registration.
+* Added first draft for block template.
+* Demo for default content.
+
 ### 0.1.0 ###
-* Initial version, still work in progress and not suitable for production.s
+* Initial version, still work in progress and not suitable for production.
 
 
