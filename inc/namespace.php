@@ -9,6 +9,15 @@
 
 namespace Spaces\Spaces_Media_Collection;
 
+use WP_Query;
+
+/**
+ * Name of the post type we register.
+ *
+ * @since 0.3.0
+ */
+const POST_TYPE = 'media_collection';
+
 /**
  * Bootstrap the plugin.
  *
@@ -84,7 +93,7 @@ function register() {
 		'show_in_rest'        => true,
 		'rest_base'           => 'collections',
 	);
-	register_post_type( 'media_collection', $args );
+	register_post_type( POST_TYPE, $args );
 
 }
 
@@ -94,13 +103,13 @@ function register() {
  * @since 0.1.0
  */
 function register_block_template() {
-	$post_type           = get_post_type_object( 'media_collection' );
+	$post_type           = get_post_type_object( POST_TYPE );
 	$post_type->template = array(
 		array(
 			'core/paragraph',
 			array(
 				'backgroundColor' => 'vivid-red',
-				'content'          => '<p>' . __( 'Delete me!!!', 'spaces-media-collection-post-type' ) . '</p><p><img src="' . plugin_dir_url( __DIR__ ) . '/assets/save-hash.gif" /></p>',
+				'content'         => '<p>' . __( 'Delete me!!!', 'spaces-media-collection-post-type' ) . '</p><p><img src="' . plugin_dir_url( __DIR__ ) . '/assets/save-hash.gif" /></p>',
 			),
 		),
 		array(
