@@ -26,6 +26,8 @@ const POST_TYPE = 'media_collection';
 function bootstrap() {
 	add_action( 'init', __NAMESPACE__ . '\register', 10 );
 	add_action( 'init', __NAMESPACE__ . '\register_block_template', 11 );
+
+	add_action( 'pre_get_posts', __NAMESPACE__ . '\add_collection_to_query', 100 );
 }
 
 /**
@@ -158,4 +160,17 @@ function register_block_template() {
 			),
 		),
 	);
+}
+
+/**
+ * Add post type to
+ *
+ * @param WP_Query $query instance of WP_Query.
+ *
+ * @since 0.3.0
+ */
+function add_collection_to_query( $query ) {
+	if ( is_home() && $query->is_main_query() ) {
+		$query->set( 'post_type', array( 'post', POST_TYPE ) );
+	}
 }
