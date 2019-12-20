@@ -111,7 +111,8 @@ function register_block_template() {
 			'core/paragraph',
 			array(
 				'backgroundColor' => 'vivid-red',
-				'content'         => '<p>' . __( 'Delete me!!!', 'spaces-media-collection-post-type' ) . '</p><p><img src="' . plugin_dir_url( __DIR__ ) . '/assets/save-hash.gif" /></p>',
+				'content'         => '<p>' . __( 'Delete me!!!', 'spaces-media-collection-post-type' ) . '</p><p><img src="' . plugin_dir_url( __DIR__ ) . '/assets/space-media-collection-anleitung.gif" /></p>',
+				'align'           => 'center',
 			),
 		),
 		array(
