@@ -28,6 +28,8 @@ function bootstrap() {
 	add_action( 'init', __NAMESPACE__ . '\register_block_template', 11 );
 
 	add_action( 'pre_get_posts', __NAMESPACE__ . '\add_collection_to_query', 100 );
+
+	add_filter( 'spaces_global_tags_post_types', __NAMESPACE__ . '\allow_global_tags_on_post_type' );
 }
 
 /**
@@ -175,3 +177,20 @@ function add_collection_to_query( $query ) {
 		$query->set( 'post_type', array( 'post', POST_TYPE ) );
 	}
 }
+
+/**
+ * Add support for global tags for the media collection post type.
+ *
+ * @see \Spaces_Global_Tags;
+ *
+ * @param array $post_types current post types to filter.
+ * @return array $post_types added custom post type.
+ *
+ * @since 0.4.0
+ */
+function allow_global_tags_on_post_type( array $post_types ) {
+	$post_types[] = POST_TYPE;
+
+	return $post_types;
+}
+
