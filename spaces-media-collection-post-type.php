@@ -7,7 +7,7 @@
  * Author URI:      https://silvanhagen.com
  * Text Domain:     spaces-media-collection-post-type
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         0.4.0
  *
  * @package         Spaces_Media_Collection_Post_Type
  */
