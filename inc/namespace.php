@@ -129,7 +129,7 @@ function register_block_template() {
 					),
 				),
 				array( 'core/paragraph', array( 'placeholder' => __( 'Describe the item in your collection', 'spaces-media-collection-post-type' ) ) ),
-				array( 'core-embed/wordpress' ),
+				array( 'core/embed' ),
 			),
 		),
 		array(
@@ -144,7 +144,7 @@ function register_block_template() {
 					),
 				),
 				array( 'core/paragraph', array( 'placeholder' => __( 'Describe the item in your collection', 'spaces-media-collection-post-type' ) ) ),
-				array( 'core-embed/wordpress' ),
+				array( 'core/embed' ),
 			),
 		),
 		array(
@@ -159,7 +159,7 @@ function register_block_template() {
 					),
 				),
 				array( 'core/paragraph', array( 'placeholder' => __( 'Describe the item in your collection', 'spaces-media-collection-post-type' ) ) ),
-				array( 'core-embed/wordpress' ),
+				array( 'core/embed' ),
 			),
 		),
 	);
