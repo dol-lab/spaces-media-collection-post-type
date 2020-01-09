@@ -3,7 +3,7 @@
 **Tags:** custom post type, post type, media, block template  
 **Requires at least:** 5.3  
 **Tested up to:** 5.3  
-**Stable tag:** 0.4.0  
+**Stable tag:** 0.5.0  
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -21,6 +21,9 @@ This section describes how to install the plugin and get it working.
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
 ## Changelog ##
+
+### 0.5.0 ###
+* Changed block template to use generic embed as default.
 
 ### 0.4.0 ###
 * Add support for global tags to media collection post type.

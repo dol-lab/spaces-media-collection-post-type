@@ -1,6 +1,6 @@
 {
   "name": "spaces-media-collection-post-type",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "main": "Gruntfile.js",
   "author": "neverything",
   "devDependencies": {
