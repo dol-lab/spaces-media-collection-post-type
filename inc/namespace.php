@@ -78,7 +78,7 @@ function register() {
 		'label'               => __( 'Collection', 'spaces-media-collection-post-type' ),
 		'description'         => __( 'Collection of media posts in Spaces.', 'spaces-media-collection-post-type' ),
 		'labels'              => $labels,
-		'supports'            => array( 'title', 'editor', 'thumbnail', 'comments', 'revisions', 'custom-fields', 'page-attributes' ),
+		'supports'            => array( 'title', 'editor', 'thumbnail', 'comments', 'revisions', 'custom-fields', 'page-attributes', 'author', 'excerpt' ),
 		'taxonomies'          => array( 'category' ),
 		'hierarchical'        => false,
 		'public'              => true,
