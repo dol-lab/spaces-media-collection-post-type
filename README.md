@@ -3,7 +3,7 @@
 **Tags:** custom post type, post type, media, block template  
 **Requires at least:** 5.3  
 **Tested up to:** 5.3  
-**Stable tag:** 0.6.0  
+**Stable tag:** 0.7.0  
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -21,6 +21,9 @@ This section describes how to install the plugin and get it working.
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
 ## Changelog ##
+
+### 0.7.0 ###
+* Added post type support for author and excerpt.
 
 ### 0.6.0 ###
 * Added better demo video for duplication.
